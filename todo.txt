@@ -1,0 +1,21 @@
+
+
+things to store:
+num of blocks orphaned
+num of blocks mined by selfish, honest miners
+selfish miners reward (#blocks*reward - computational_cost*time)
+
+1. Selfish V Honest as (alpha, gamma) change and as (window_size, time_per_block) change
+    - Look at relative blocks won
+    - Look at cost
+
+
+
+
+- !!! account for defectors
+- computational cost
+- glue visualization code together (pickle results object)
+- look at difficulty code (for 2-honest case. is there something buggy with agent.type?)
+- pretty print terminal (progress bar + animations + emojis)
+~~~- ism miner
+
